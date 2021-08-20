@@ -9,6 +9,7 @@ public class TestManejoUsuarios {
 	public static void main(String[] args) {
 		Connection conexion = null;
 		System.out.println("Esto es para probar versiones de github1");
+		System.out.println("Esto es para probar versiones de github1 de la rama prueba");
 		try {
 			conexion = Conexion.getConnection();
 			if (conexion.getAutoCommit())

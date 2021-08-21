@@ -29,13 +29,11 @@ public class TestManejoUsuarios {
 			conexion.commit();
 			System.out.println("Commit realizado con exito");
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace(System.out);
 			System.out.println("entramos al rolblack");
 			try {
 				conexion.rollback();
 			} catch (SQLException e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace(System.out);
 			}
 		}

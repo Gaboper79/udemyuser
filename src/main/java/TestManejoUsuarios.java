@@ -35,6 +35,7 @@ public class TestManejoUsuarios {
 				conexion.rollback();
 			} catch (SQLException e1) {
 				e1.printStackTrace(System.out);
+				System.out.println("lala");
 			}
 		}
 
